@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Viewport Meta Tag for Mobile Responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastel Glassmorphic Studio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Floating Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-container">
+    <nav class="navbar glass-panel">
+      <div class="nav-brand">
+        <span class="brand-icon">🌸</span>
+        <span class="brand-name">PastelStudio</span>
+      </div>
+
+      <!-- Hamburger Button (Visible on Mobile) -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#showcase" class="nav-link">Showcase</a></li>
+        <li><a href="#contact" class="nav-link btn-nav">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-content">
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-text">
+        <span class="badge">✨ Responsive Design Task</span>
+        <h1 class="hero-title">Crafting Elegant Mobile-Friendly Layouts</h1>
+        <p class="hero-subtitle">
+          Experience smooth responsiveness across all screen dimensions with CSS media queries, flexbox grids, and liquid pastel glassmorphism.
+        </p>
+        <div class="hero-actions">
+          <a href="#features" class="btn btn-primary">Explore Features</a>
+          <a href="#showcase" class="btn btn-secondary">View Gallery</a>
+        </div>
+      </div>
+
+      <div class="hero-card glass-panel">
+        <div class="card-badge">Live Preview</div>
+        <div class="illustration-box">
+          <div class="glass-orb"></div>
+          <p>Fluid Viewport Active</p>
+        </div>
+        <div class="card-stats">
+          <div class="stat-item">
+            <strong>100%</strong>
+            <span>Fluid</span>
+          </div>
+          <div class="stat-item">
+            <strong>768px</strong>
+            <span>Breakpoint</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Grid Section -->
+    <section id="features" class="features-section">
+      <div class="section-header">
+        <h2>Core Capabilities</h2>
+        <p>Built with mobile-first responsiveness and flexible CSS layouts.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card glass-panel">
+          <div class="feature-icon">📱</div>
+          <h3>Media Queries</h3>
+          <p>Adapts styles dynamically based on viewport width breakpoints.</p>
+        </div>
+
+        <div class="feature-card glass-panel">
+          <div class="feature-icon">📐</div>
+          <h3>Flexible Grids</h3>
+          <p>Columns stack seamlessly from multi-column rows into single-column layouts.</p>
+        </div>
+
+        <div class="feature-card glass-panel">
+          <div class="feature-icon">🖼️</div>
+          <h3>Fluid Media</h3>
+          <p>Images and vector cards scale within containers without horizontal scrolling.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Showcase Section -->
+    <section id="showcase" class="showcase-section glass-panel">
+      <div class="showcase-content">
+        <h2>Responsive Image Scaling</h2>
+        <p>Images automatically scale down using relative percentage widths and max-width bounds.</p>
+      </div>
+      <div class="showcase-image-wrap">
+        <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1000&q=80" alt="Pastel Ambient Landscape" class="responsive-img">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer glass-panel">
+    <p>© 2026 PastelStudio. Web Development Internship — Task 4.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+  </html>
+        
